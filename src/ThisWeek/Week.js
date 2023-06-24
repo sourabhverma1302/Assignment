@@ -1,8 +1,10 @@
 import React from 'react';
 import './Week.css';
-import data from './WeekData';
+import { useDispatch,useSelector } from 'react-redux';
+import { filteryourdata } from '../slices/FilterData';
 
 const Week = () => {
+    const data=useSelector(state=>state.filteryoudata.demodata);
   return (
     <div className='container'>
     <div className='weeks'>
@@ -16,7 +18,7 @@ const Week = () => {
                 <img src={item.imageUrl} alt="" height={50} width={50}/>
                 <div>
                 <h1>{item.name}</h1>
-                <p>{item.date}</p>
+                <p>{item.date}&nbsp;&nbsp;&nbsp;&nbsp;<span style={{fontWeight:'bold'}}>{item.status}</span></p>
                 </div>
                 </div>
                 <h1>{item.price}</h1>
