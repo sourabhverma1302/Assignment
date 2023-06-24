@@ -1,0 +1,30 @@
+.navbar {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.notification_login {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.notification_login Button {
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.menu Button {
+    font-size: 15px;
+    color: white;
+    padding: 12px;
+}

@@ -1,0 +1,34 @@
+.filter {
+    width: 55%;
+    margin: auto;
+}
+
+.filter h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.filterdays {
+    display: flex;
+    gap: 20px;
+}
+
+.filterdays Button {
+    margin: 0;
+    padding: 8px;
+    border: 1px solid grey;
+    font-weight: 600;
+    background-color: white;
+    color: blue;
+    border-radius: 30px;
+}
+
+.active {
+    margin: 0;
+    padding: 10px;
+    border: 2px solid grey;
+    font-weight: 600;
+    background-color: lightblue !important;
+    color: blue;
+    border-radius: 30px;
+}

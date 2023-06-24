@@ -1,0 +1,50 @@
+.weeks {
+    width: 55%;
+    margin: auto;
+}
+
+.weeks h1 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.weekdata {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.eachdata {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 85%;
+    padding: 20px;
+}
+
+.name_date h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.name_date p {
+    margin: 1px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.name_date img {
+    border-radius: 25px;
+}
+
+.eachdata h1 {
+    font-weight: bold;
+}
+
+.name_date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
